@@ -24,7 +24,7 @@ On the latest ecosystems Jupyter Notebook is already installed. Otherwise you ne
 
 Use the *Generate notebook* to generate a signal in burst mode and the *Acquire notebook* to acquire the signal. Do not use the *Oscilloscope App* at the same time as it may interfere the execution of the Python scripts.
 
-### See https://github.com/lvillasen/RedPitaya-Python-Elephant for a tutorial on the use of the *Periphery Module* to control the ASG module of the RedPitaya.
+### See https://github.com/lvillasen/RedPitaya-Signal-Generator-Python for a tutorial on the use of the *Periphery Module* to control the ASG module of the RedPitaya.
 
 ## License
 

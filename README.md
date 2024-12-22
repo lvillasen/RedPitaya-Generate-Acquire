@@ -10,10 +10,16 @@ of the Red Pitaya GNU/Linux Ecosystem using Python 3.5.
 
 These Python scripts use the *periphery module* which is already installed in the latest releases of the RedPytaya ecosystem and the official memory map of the STEMLab 125-14 board.  
 
+### Hardware Configuration
+
+Connect IN1 to OUT1 on your RedPitaya board and the range jumper on IN1 to LV. 
+
+
 #### The memory map is documented here: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
 
 
 ### Installation
+
 
 The simplest way to install the code is to clone the repository in the directory /home/jupyter on the RedPitaya 
 

@@ -8,8 +8,9 @@ The scripts were tested on
 
 of the Red Pitaya GNU/Linux Ecosystem using Python 3.5.
 
-These scripts use the *periphery module* which is already installed in the latest releases of the RedPytaya ecosystem.  
+These scripts use the *periphery module* which is already installed in the latest releases of the RedPytaya ecosystem and the official memory map of the STEMLab 125-14 board.  
 
+### Memory Map: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
 
 
 ## Installation

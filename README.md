@@ -1,4 +1,4 @@
-# RedPitaya-Generate-Acquire
+## RedPitaya-Generate-Acquire
 Simple Python scripts to illustrate the use of the ASG and triggered signal acquisition on the RedPitaya board.
 
 The scripts were tested on 
@@ -10,10 +10,10 @@ of the Red Pitaya GNU/Linux Ecosystem using Python 3.5.
 
 These scripts use the *periphery module* which is already installed in the latest releases of the RedPytaya ecosystem and the official memory map of the STEMLab 125-14 board.  
 
-### Memory Map: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
+#### Memory Map: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
 
 
-## Installation
+### Installation
 
 The simplest way to install the code is to clone the repository and copy the jupyter notebooks to the directory /home/jupyter on the RedPitaya 
 
@@ -25,8 +25,8 @@ On the latest ecosystems Jupyter Notebook is already installed. Otherwise you ne
 
 Use the *Generate notebook* to generate a signal in burst mode and the *Acquire notebook* to acquire the signal. Do not use the *Oscilloscope App* at the same time as it may interfere the execution of the Python scripts.
 
-### See https://github.com/lvillasen/RedPitaya-Signal-Generator-Python for a tutorial on the use of the *Periphery Module* to control the ASG module of the RedPitaya.
+#### See https://github.com/lvillasen/RedPitaya-Signal-Generator-Python for a tutorial on the use of the *Periphery Module* to control the ASG module of the RedPitaya.
 
-## License
+### License
 
 [MIT](LICENSE)

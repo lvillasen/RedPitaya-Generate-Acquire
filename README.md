@@ -1,25 +1,25 @@
 ## RedPitaya-Generate-Acquire
-Simple Python scripts to illustrate the use of the ASG and triggered signal acquisition on the RedPitaya board.
+Simple Python scripts and programs in C to illustrate the use of the fast ADCs and the DACs on the RedPitaya board.
 
-The scripts were tested on 
+The Python scripts were tested on 
 
 - Version: 1.04
 - Build: 18 
 
 of the Red Pitaya GNU/Linux Ecosystem using Python 3.5.
 
-These scripts use the *periphery module* which is already installed in the latest releases of the RedPytaya ecosystem and the official memory map of the STEMLab 125-14 board.  
+These Python scripts use the *periphery module* which is already installed in the latest releases of the RedPytaya ecosystem and the official memory map of the STEMLab 125-14 board.  
 
-#### Memory Map: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
+#### The memory map is documented here: https://redpitaya.readthedocs.io/en/latest/developerGuide/software/build/fpga/regset/in_dev/v0.94.html
 
 
 ### Installation
 
-The simplest way to install the code is to clone the repository and copy the jupyter notebooks to the directory /home/jupyter on the RedPitaya 
+The simplest way to install the code is to clone the repository in the directory /home/jupyter on the RedPitaya 
 
-Then you can open them through the *Jupyter Python Programming* page from the *Development* page of the RedPitaya web page menu.
+Then you can open the jupyter notebooks using the *Jupyter Python Programming* page from the *Development* page of the RedPitaya web page menu.
 
-An alternative is to use an ssh-tunnel.
+An alternative way is to use an ssh-tunnel.
 
 On the latest ecosystems Jupyter Notebook is already installed. Otherwise you need to install it.
 

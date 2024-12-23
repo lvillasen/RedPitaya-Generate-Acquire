@@ -28,7 +28,7 @@ Then you can open the jupyter notebooks using the *Jupyter Python Programming* p
 An alternative way is to use an ssh-tunnel.
 
 On the latest ecosystems Jupyter Notebook is already installed. Otherwise you need to install it.
-*In order to catch the signal generated it is necesary to use both jupyter notebooks:*
+**In order to catch the signal generated it is necesary to use both jupyter notebooks:**
 use the *Generate notebook* to generate a signal in burst mode and the *Acquire notebook* to acquire the signal. Do not use the *Oscilloscope App* at the same time as it may interfere the execution of the Python scripts.
 
 #### See https://github.com/lvillasen/RedPitaya-Signal-Generator-Python for a tutorial on the use of the *Periphery Module* to control the ASG module of the RedPitaya.
